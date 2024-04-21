@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    align-items: center;
+    background: #FACFB0;
+}
+
+.parent_box {
+    background: white;
+    max-width: 90%;
+    width: 800px;
+    height: 35%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.content_align {
+    margin-top: 10px;
+}
+
+.form {
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+}
+
+.form input {
+    max-width: 90%;
+    width: 500px;
+    height: 40px;
+}
+
+.form input:hover {
+    border: 1px solid red;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}

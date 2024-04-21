@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+    <h1>คำนวณค่าดัชนีมวลกาย (BMI)</h1>
+    <form class="parent_box" id="parent_box">
+        <legend>
+            <h2>ตารางคำนวณ</h2>
+        </legend>
+        <div class="form">
+            <label for="Weight">Enter your weight :</label>
+            <input type="number" placeholder="Kg." id="weight-value" required>
+            <br><br>
+            <label for="Height">Enter your height :</label>
+            <input type="number" placeholder="Cm." id="height-value" required>
+            <br><br>
+        </div>
+        <button type="submit">Go calculate</button>
+        <br><br><br>
+        <div id="Display_allvalue" class="Display_allvalue"></div>
+        <script src="app.JS"></script>
+    </form>
+
+
+</body>
+
+</html>
